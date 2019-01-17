@@ -1,0 +1,2 @@
+EXEC  master..xp_cmdshell 'SQLCMD -S DB01\SQL2008 -E -Q "exec salesforcereporting.dbo.closedyesterdaybydata" -b -o c:\myoutput.csv -s","', no_output
+EXEC master..xp_cmdshell 'findstr /R /C:"^[^-]*$" c:\myoutput.csv > c:\myoutputNew.csv', no_output

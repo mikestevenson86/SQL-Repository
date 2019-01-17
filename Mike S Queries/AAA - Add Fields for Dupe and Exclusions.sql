@@ -1,0 +1,13 @@
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD Dupe_Lead bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD Dupe_Toxic bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD Dupe_Account bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD Dupe_Site bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD ToxicSIC bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD ToxicSIC_Events bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD BadCompany_Exact bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD BadCompany_Near bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD BadCompany_Events bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD BadDomain bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD BadDomain_NHS bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD BadPosition_Events bit
+ALTER TABLE SalesforceReporting..Glasgow_Chambers_January2017 ADD BadSector_Events bit
